@@ -9,14 +9,13 @@
 ##########################
 ## Login process:
 ## 1. get dynamic key:
-##        demo:  
-##         $.ajax({
-##        type: "POST",
-##        url: "/interface/get_d_key.php",
-##        data: JSON.stringify(data),
-##        contentType: "application/json;charset=utf-8;",
-##        dataType: "json",
-##        complete: function (msg) {alert(msg);}});
-##
-##
-##
+```
+demo:  
+         $.ajax({
+        type: "POST",
+        url: "/interface/get_d_key.php",
+        data: JSON.stringify(data),
+        contentType: "application/json;charset=utf-8;",
+        dataType: "json",
+        complete: function (msg) {alert(msg);}});
+```
