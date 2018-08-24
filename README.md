@@ -1,5 +1,5 @@
 # README ! This project has not been finished yet !
-##  This is the php server aiming to record personal daily costs
+##  This aims to record personal daily costs based on lnmp
 ### You can build it by those steps following:
    1. Establish your lnmp server environment and make sure it works correctly;
    2. In config.php,To configure some basic informations about your server;
@@ -8,7 +8,11 @@
 
 ##########################
 ## Login process:
-## 1. get dynamic key:
+# get RSA public key for encrypting user's password and tkey.
+# generate tkey by client js, whcih allows AES encode for later connection.
+
+
+## get dynamic key:
 ```
 demo:  
          $.ajax({
